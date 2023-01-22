@@ -117,3 +117,123 @@ html {
 .icons:hover {
     background-color: #1CB698;
 }
+
+.aboutme {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.aboutme__content {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.aboutme__content__title {
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;    
+}
+
+.aboutme__content__text {
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.text__description {
+    color: #1CB698;
+    font-weight: bold;
+}
+
+.aboutme__info {
+    display: flex;    
+}
+
+.aboutme__info__container {
+    width: 50%;
+}
+
+.subtitles {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.info__list {
+    list-style: none;
+}
+
+.info__list__item {
+    margin: 12px 0;
+}
+
+.item__strong {
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;    
+}
+
+.item__strong__span {
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.interests__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interest {
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;    
+}
+
+.interest:hover {
+    background-color: #1CB698;
+}
+
+.interest__icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.download-button {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    position: relative;
+    z-index: 10; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: 1s;
+}
+
+.download-button:hover .overlay {
+    width: 100%;    
+}
