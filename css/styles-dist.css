@@ -18,7 +18,7 @@ html {
     z-index: 99;
 }
 
-.header__content {
+.header__container {
     max-width: 1100px;
     margin: auto;
     display: flex;
@@ -95,12 +95,12 @@ html {
     font-family: 'Righteous';
 }
 
-.titles {
+.subtitle {
     font-size: 15px;
     font-weight: normal;
 }
 
-.icons {
+.socialmedia__icons {
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -124,25 +124,25 @@ html {
     padding: 50px 20px;
 }
 
-.aboutme__content {
+.aboutme__container {
     max-width: 1100px;
     margin: auto;
 }
 
-.aboutme__content__title {
+.h2 {
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;    
 }
 
-.aboutme__content__text {
+.p {
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 
-.text__description {
+.span {
     color: #1CB698;
     font-weight: bold;
 }
@@ -155,27 +155,27 @@ html {
     width: 50%;
 }
 
-.subtitles {
+.h3 {
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
 
-.info__list {
+.ul {
     list-style: none;
 }
 
-.info__list__item {
+.li {
     margin: 12px 0;
 }
 
-.item__strong {
+.strong {
     display: inline-block;
     color: #1CB698;
     width: 130px;    
 }
 
-.item__strong__span {
+.span-2 {
     background-color: #1CB698;
     padding: 3px;
     font-weight: bold;
@@ -242,34 +242,22 @@ html {
 .skills {
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 20px;
+    padding: 40px 20px 50px 20px;
 }
 
-.skills__container {
+.skills-container {
     max-width: 1100px;
     margin: auto;
 }
 
-.skills__title {
-    font-size: 48px;
-    font-family: 'Righteous';
-    text-align: center;
-    padding: 20px 0;    
-}
-
-.skills__global {
+.row {
     display: flex;
+    justify-content: space-between;
 }
 
-.skills__groups {
+.column {
     width: 50%;
     padding: 0 20px;    
-}
-
-.skills__subtitle {
-    font-size: 28px;
-    font-family: 'Righteous';
-    margin-bottom: 25px;
 }
 
 .skill__name {
@@ -278,7 +266,7 @@ html {
     margin-bottom: 10px;
 }
 
-.barra-skill {
+.progress-bar {
     height: 8px;
     width: 80%;
     background-color: #131517;
@@ -445,4 +433,68 @@ html {
 @keyframes project {
     0%{width: 0%;}
     100%{width: 95%;}
+}
+
+.curriculum {
+    background-color: #1e2326;
+    color: #fff;
+    padding: 40px 20px 50px 20px;
+}
+
+.curriculum-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.col {
+    width: 49%;
+    padding: 0 20px;
+}
+
+.left {
+    border-right: 2px solid #252A2E;
+}
+
+.right {
+    border-left: 2px solid #252A2E;
+}
+
+.item {
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+}
+
+.h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.entity {
+    margin-bottom: 5px;
+    color: #1CB698;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.date {
+    display: block;
+    color: #1CB698;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    line-height: 24px;
+    text-align: justify;
+}
+
+.left2 {
+    border-right: 2px solid #1CB698;
+    margin-right: 20px;
+}
+
+.right2 {
+    border-left: 2px solid #1CB698;
+    margin-left: 20px;
 }

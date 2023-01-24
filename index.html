@@ -17,7 +17,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__content">
+      <div class="header__container">
         <div class="logo">
           <a href="#" class="logo__link">Andres Ardila</a>
         </div>
@@ -49,63 +49,66 @@
             />
           </div>
           <h1 class="name">ANDRES ARDILA</h1>
-          <h2 class="titles">
+          <h2 class="subtitle">
             Ingeniero Esp. en Evaluación y Gerencia de Proyectos
           </h2>
           <div class="socialmedia">
-            <a href="#" class="icons"
+            <a href="#" class="socialmedia__icons"
               ><i class="fa-brands fa-facebook-f"></i
             ></a>
-            <a href="#" class="icons"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#" class="icons"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#" class="icons"><i class="fa-brands fa-twitch"></i></a>
-            <a href="#" class="icons"><i class="fa-solid fa-rss"></i></a>
+            <a href="#" class="socialmedia__icons"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" class="socialmedia__icons"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" class="socialmedia__icons"
+              ><i class="fa-brands fa-twitch"></i
+            ></a>
+            <a href="#" class="socialmedia__icons"
+              ><i class="fa-solid fa-rss"></i
+            ></a>
           </div>
         </div>
       </section>
       <section id="aboutme" class="aboutme">
-        <div class="aboutme__content">
-          <h2 class="aboutme__content__title">About me</h2>
-          <p class="aboutme__content__text">
-            <span class="text__description">Hola soy Andres Ardila</span>Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptate
-            fugiat laboriosam, qui maiores aliquam, veniam quas nulla, obcaecati
-            ullam facere architecto nesciunt pariatur. Atque autem maiores ut
-            veniam temporibus!
+        <div class="aboutme__container">
+          <h2 class="h2">About me</h2>
+          <p class="p">
+            <span class="span">Hola soy Andres Ardila</span>Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Nobis voluptate fugiat
+            laboriosam, qui maiores aliquam, veniam quas nulla, obcaecati ullam
+            facere architecto nesciunt pariatur. Atque autem maiores ut veniam
+            temporibus!
           </p>
           <div class="aboutme__info">
             <div class="aboutme__info__container">
-              <h3 class="subtitles">Personal information</h3>
-              <ul class="info__list">
-                <li class="info__list__item">
-                  <strong class="item__strong">Birthday</strong>14-03-1990
+              <h3 class="h3">Personal information</h3>
+              <ul class="ul">
+                <li class="li">
+                  <strong class="strong">Birthday</strong>14-03-1990
                 </li>
-                <li class="info__list__item">
-                  <strong class="item__strong">Phone number</strong>(+57)
-                  3125166329
+                <li class="li">
+                  <strong class="strong">Phone number</strong>(+57) 3125166329
                 </li>
-                <li class="info__list__item">
-                  <strong class="item__strong">Email</strong
-                  >andres_3033@hotmail.com
+                <li class="li">
+                  <strong class="strong">Email</strong>andres_3033@hotmail.com
                 </li>
-                <li class="info__list__item">
-                  <strong class="item__strong">Rol</strong
-                  ><span class="item__strong__span">Full Stack Developer</span>
+                <li class="li">
+                  <strong class="strong">Rol</strong
+                  ><span class="span-2">Full Stack Developer</span>
                 </li>
-                <li class="info__list__item">
-                  <strong class="item__strong">City</strong>Cúcuta
+                <li class="li"><strong class="strong">City</strong>Cúcuta</li>
+                <li class="li">
+                  <strong class="strong">Department</strong>Norte de Santander
                 </li>
-                <li class="info__list__item">
-                  <strong class="item__strong">Department</strong>Norte de
-                  Santander
-                </li>
-                <li class="info__list__item">
-                  <strong class="item__strong">Country</strong>Colombia
+                <li class="li">
+                  <strong class="strong">Country</strong>Colombia
                 </li>
               </ul>
             </div>
             <div class="aboutme__info__container">
-              <h3 class="subtitles">Interests</h3>
+              <h3 class="h3">Interests</h3>
               <div class="interests__container">
                 <div class="interest">
                   <i class="fa-solid fa-gamepad" class="interest__icon"></i>
@@ -133,7 +136,7 @@
                 <div class="interest">
                   <i class="fa-solid fa-book" class="interest__icon"></i>
                   <span>BOOKS</span>
-                </div>                
+                </div>
                 <div class="interest">
                   <i class="fa-solid fa-car" class="interest__icon"></i>
                   <span>CARS</span>
@@ -152,14 +155,14 @@
         </div>
       </section>
       <section id="skills" class="skills">
-        <div class="skills__container">
-          <h2 class="skills__title">Skills</h2>
-          <div class="skills__global">
-            <div class="skills__groups">
-              <h3 class="skills__subtitle">Technical Skills</h3>
+        <div class="skills-container">
+          <h2 class="h2">Skills</h2>
+          <div class="row">
+            <div class="column">
+              <h3 class="h3">Technical Skills</h3>
               <div class="skill">
                 <span class="skill__name">JAVASCRIPT</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">65%</span>
                   </div>
@@ -167,7 +170,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">HTML & CSS</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">70%</span>
                   </div>
@@ -175,7 +178,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">VUE.JS</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">30%</span>
                   </div>
@@ -183,7 +186,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">GIT & GITHUB</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">75%</span>
                   </div>
@@ -191,7 +194,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">SAP-ABAP</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">45%</span>
                   </div>
@@ -199,7 +202,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">NODE & NEST.JS</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">70%</span>
                   </div>
@@ -207,7 +210,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">DOCKER</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">45%</span>
                   </div>
@@ -215,7 +218,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">POSTMAN</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">55%</span>
                   </div>
@@ -223,18 +226,18 @@
               </div>
               <div class="skill">
                 <span class="skill__name">ENGLISH</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">55%</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="skills__groups">
-              <h3 class="skills__subtitle">Soft Skills</h3>
+            <div class="column">
+              <h3 class="h3">Soft Skills</h3>
               <div class="skill">
                 <span class="skill__name">Cumunication</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">80%</span>
                   </div>
@@ -242,7 +245,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">Teamwork</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">75%</span>
                   </div>
@@ -250,7 +253,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">Creativity</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">90%</span>
                   </div>
@@ -258,7 +261,7 @@
               </div>
               <div class="skill">
                 <span class="skill__name">Dedication</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">80%</span>
                   </div>
@@ -266,12 +269,92 @@
               </div>
               <div class="skill">
                 <span class="skill__name">Project Management</span>
-                <div class="barra-skill">
+                <div class="progress-bar">
                   <div class="progress">
                     <span class="percent">95%</span>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="curriculum" class="curriculum">
+        <div class="curriculum-container">
+          <h2 class="h2">Curriculum</h2>
+          <div class="row">
+            <div class="col left">
+              <h3 class="h3">Education</h3>
+              <div class="item left2">
+                <h4 class="h4">Gerencia de Proyectos</h4>
+                <span class="entity">Universidad Industrial de Santander</span>
+                <span class="date">2007 - 2014</span>
+                <p class="p2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Beatae a facilis vitae, odio repellendus provident. Assumenda
+                  odit eaque deserunt facilis nihil alias est sunt rem, officia
+                  libero eveniet doloribus soluta!
+                </p>                
+              </div>
+              <div class="item left2">
+                <h4 class="h4">Gerencia de Proyectos</h4>
+                <span class="entity">Universidad Industrial de Santander</span>
+                <span class="date">2007 - 2014</span>
+                <p class="p2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Beatae a facilis vitae, odio repellendus provident. Assumenda
+                  odit eaque deserunt facilis nihil alias est sunt rem, officia
+                  libero eveniet doloribus soluta!
+                </p>                
+              </div>
+              <div class="item left2">
+                <h4 class="h4">Gerencia de Proyectos</h4>
+                <span class="entity">Universidad Industrial de Santander</span>
+                <span class="date">2007 - 2014</span>
+                <p class="p2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Beatae a facilis vitae, odio repellendus provident. Assumenda
+                  odit eaque deserunt facilis nihil alias est sunt rem, officia
+                  libero eveniet doloribus soluta!
+                </p>                
+              </div>
+            </div>
+            <div class="col right">
+              <h3 class="h3">Experiencia laboral</h3>
+              <div class="item right2">
+                <h4 class="h4">SAP-ABAP Developer</h4>
+                <span class="entity">Innova SAS</span>
+                <span class="date">2022 - 2023</span>
+                <p class="p2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Beatae a facilis vitae, odio repellendus provident. Assumenda
+                  odit eaque deserunt facilis nihil alias est sunt rem, officia
+                  libero eveniet doloribus soluta!
+                </p>                
+              </div>              
+              <div class="item right2">
+                <h4 class="h4">SAP-ABAP Developer</h4>
+                <span class="entity">Innova SAS</span>
+                <span class="date">2022 - 2023</span>
+                <p class="p2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Beatae a facilis vitae, odio repellendus provident. Assumenda
+                  odit eaque deserunt facilis nihil alias est sunt rem, officia
+                  libero eveniet doloribus soluta!
+                </p>                
+              </div>              
+              <div class="item right2">
+                <h4 class="h4">SAP-ABAP Developer</h4>
+                <span class="entity">Innova SAS</span>
+                <span class="date">2022 - 2023</span>
+                <p class="p2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Beatae a facilis vitae, odio repellendus provident. Assumenda
+                  odit eaque deserunt facilis nihil alias est sunt rem, officia
+                  libero eveniet doloribus soluta!
+                </p>                
+              </div>              
+            </div>                         
             </div>
           </div>
         </div>
