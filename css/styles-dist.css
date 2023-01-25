@@ -651,13 +651,13 @@ html {
 /* RESPONSIVE */
 
 @media screen and (max-width:980px){
-    .nav{
+    nav{
         display: none;
     }
     .nav-responsive{
         display: block;
     }
-    .nav{
+    nav.responsive{
         display: block;
         position: absolute;
         right: 0;

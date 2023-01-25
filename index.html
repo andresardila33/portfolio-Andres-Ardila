@@ -21,19 +21,19 @@
         <div class="logo">
           <a href="#" class="logo__link">Andres Ardila</a>
         </div>
-        <nav class="nav">
+        <nav id="nav" class="nav">
           <ul class="nav__list">
-            <li class="nav__li"><a href="#home" class="nav__list__items">HOME</a></li>
-            <li class="nav__li"><a href="#aboutme" class="nav__list__items">ABOUT ME</a></li>
-            <li class="nav__li"><a href="#skills" class="nav__list__items">SKILLS</a></li>
+            <li class="nav__li"><a href="#home" onclick="select()" class="nav__list__items">HOME</a></li>
+            <li class="nav__li"><a href="#aboutme" onclick="select()" class="nav__list__items">ABOUT ME</a></li>
+            <li class="nav__li"><a href="#skills" onclick="select()" class="nav__list__items">SKILLS</a></li>
             <li class="nav__li">
-              <a href="#curriculum" class="nav__list__items">CURRICULUM</a>
+              <a href="#curriculum" onclick="select()" class="nav__list__items">CURRICULUM</a>
             </li class="nav__li">
-            <li class="nav__li"><a href="#portfolio" class="nav__list__items">PORTFOLIO</a></li>
-            <li class="nav__li"><a href="#contact" class="nav__list__items">CONTACT</a></li>
+            <li class="nav__li"><a href="#portfolio" onclick="select()" class="nav__list__items">PORTFOLIO</a></li>
+            <li class="nav__li"><a href="#contact" onclick="select()" class="nav__list__items">CONTACT</a></li>
           </ul>
         </nav>
-        <div class="nav-responsive">
+        <div class="nav-responsive" onclick="showMenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </div>
@@ -460,5 +460,6 @@
         <a href="#" class="socialmedia__icons"><i class="fa-solid fa-rss"></i></a>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
