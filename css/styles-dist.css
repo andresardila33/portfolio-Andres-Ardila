@@ -647,3 +647,73 @@ html {
     line-height: 50px;
     font-size: 18px;    
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width:980px){
+    .nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    .nav{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+
+    }
+    .nav__list{
+        display: block !important;
+    }
+    .nav__li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:700px){
+    .aboutme__info{
+        display: block;        
+    }
+    .aboutme__info__container{
+        width: fit-content;
+    }
+    .skills .row{
+        display: block;        
+    }
+    .skills .row .column{
+        width: 100%;
+    }
+    .skill .progress-bar{
+        width: 100%;
+    }
+    .curriculum .row{
+        display: block;
+    }
+    .curriculum .row .col{
+        width: 95%;
+    }
+    .curriculum .row .right{
+        margin-left: 20px;
+    }
+    .portfolio .gallery{
+        display: block;
+        width: 100%;        
+    }
+    .gallery .project{
+        max-width: 100%;
+    }
+    .project .img{
+        width: 100%;        
+    }
+    .contact .row-2{
+        display: block;
+    }
+    .contact .row-2 .col-2{
+        width: 100%;
+    }
+}
