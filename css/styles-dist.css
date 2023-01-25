@@ -72,7 +72,7 @@ html {
 }
 
 .banner {
-    padding: 20px;
+    padding: 18px;
     background-color: #1e2326;
     max-width: 350px;
     margin: 100px auto auto auto;
@@ -140,6 +140,7 @@ html {
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .span {
@@ -159,14 +160,20 @@ html {
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .ul {
     list-style: none;
+    padding: 0;
 }
 
 .li {
     margin: 12px 0;
+}
+
+.li-rol{
+    line-height: 30px;
 }
 
 .strong {
@@ -185,6 +192,8 @@ html {
 .interests__container {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .interest {
@@ -425,12 +434,12 @@ html {
     100%{width: 80%;}
 }
 
-.skills .skill .project {
+.skills .skill .proj {
     width: 0%;
-    animation: 2s project forwards;    
+    animation: 2s proj forwards;    
 }
 
-@keyframes project {
+@keyframes proj {
     0%{width: 0%;}
     100%{width: 95%;}
 }
@@ -548,6 +557,12 @@ html {
 .h3-2 {
     margin-bottom: 20px;
     transition: 1s;
+}
+
+.p3 {
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
 }
 
 .overlay2:hover {

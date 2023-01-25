@@ -17,7 +17,7 @@ function select() {
 //Función que aplica las animaciones de las habilidades
 function efectSkills() {
     let skills = document.getElementById("skills");
-    let distSkills = window.innerHeight -skills.getBoundingClientRect().top;
+    let distSkills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distSkills >= 300) {
         let habilidades = document.getElementsByClassName("progress");
         habilidades[0].classList.add("javascript");
@@ -33,7 +33,7 @@ function efectSkills() {
         habilidades[10].classList.add("teamwork");
         habilidades[11].classList.add("creativity");
         habilidades[12].classList.add("dedication");
-        habilidades[13].classList.add("project");
+        habilidades[13].classList.add("proj");
     }
 }
 
